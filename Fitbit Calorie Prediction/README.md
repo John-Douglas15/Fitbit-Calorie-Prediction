@@ -89,7 +89,6 @@ Predict daily calories burned using Fitbit activity data with machine learning.
 - Try **XGBoost** or **LightGBM** for potentially better performance.  
 - Include **time-series or session-level activity features**.  
 - Build a **REST API** for deployment to web or mobile apps.  
-- Apply **SHAP values** for deeper interpretability of feature contributions.  
 
 ---
 
@@ -98,4 +97,5 @@ Predict daily calories burned using Fitbit activity data with machine learning.
 ```python
 import joblib
 model = joblib.load("fitbit_calorie_model.pkl")
+
 preds = model.predict(X_new)  # X_new: new activity data
